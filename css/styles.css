@@ -84,7 +84,7 @@ header a {
   padding: 10px;
 }
 header a:hover {
-  color: #0d1b24;
+  color: #000000;
   text-decoration: none;
   background: #eee;
   border-radius: 4px;
@@ -109,7 +109,7 @@ header.sticky {
   position: fixed;
   right: 15px;
   top: 10px;
-  color: #0d1b24;
+  color: #000000;
   font-size: 1.5em;
   z-index: 20;
   padding: 0 7px;
@@ -125,7 +125,7 @@ header.sticky {
   padding-right: 15px;
   padding-top: 10px;
   cursor: pointer;
-  color: #081620;
+  color: #000000;
 }
 #mobile-menu-close span {
   font-size: 0.5em;
@@ -215,17 +215,17 @@ footer {
   left: 0;
   right: 0;
   margin: 0 auto;
-  background: #0d1b24;
+  background: #000000;
 }
 .background-alt {
-  background: #f2f2f5;
+  background: rgb(245, 236, 224);
 }
 #lead {
   position: relative;
   height: 100vh;
   min-height: 500px;
   max-height: 1080px;
-  background: url(../images/newyork.jpg);
+  background: url(../images/book.jpg);
   background-size: cover;
   padding: 15px;
   overflow: hidden;
@@ -243,7 +243,7 @@ footer {
   margin: 0;
 }
 #lead-content h1 {
-  color: #fff;
+  color: rgb(255, 255, 255);
   font-weight: 900;
   font-size: 5em;
   text-transform: uppercase;
@@ -251,7 +251,7 @@ footer {
   line-height: 0.9em;
 }
 #lead-content h2 {
-  color: #d5dce0;
+  color: rgb(255, 255, 255);
   font-weight: 500;
   font-size: 2.25em;
   margin-bottom: 15px;
@@ -264,7 +264,7 @@ footer {
   right: 0;
   bottom: 0;
   left: 0;
-  background: rgba(1, 7, 11, 0.735);
+  background: rgba(3, 15, 23, 0.354);
   z-index: 1;
 }
 #lead-down {
@@ -308,10 +308,10 @@ footer {
   border-bottom: 1px solid #dcd9d9;
 }
 #about h2 {
-  color: #374054;
+  color: #000000;
 }
 #about p {
-  color: #74808a;
+  color: #000000;
   margin: 0;
 }
 #experience {
@@ -320,7 +320,7 @@ footer {
   border-bottom: 1px solid #dcd9d9;
 }
 #experience h2 {
-  color: #374054;
+  color: #000000;
 }
 #experience-timeline {
   margin: 30px auto 0 auto;
@@ -336,7 +336,7 @@ footer {
   right: auto;
   height: 100%;
   width: 3px;
-  background: #0c2332;
+  background: rgb(185, 213, 219);
   z-index: 0;
 }
 #experience-timeline:after {
@@ -344,8 +344,12 @@ footer {
   content: "";
   width: 3px;
   height: 40px;
-  background: #112f42;
-  background: linear-gradient(to bottom, #194461, rgba(52, 152, 219, 0));
+  background: rgb(185, 213, 219);
+  background: linear-gradient(
+    to bottom,
+    rgb(185, 213, 219),
+    rgba(52, 152, 219, 0)
+  );
   top: 100%;
   left: 303px;
 }
@@ -386,7 +390,7 @@ footer {
   color: #fff;
   width: 50px;
   height: 50px;
-  background: #123148;
+  background: rgb(67, 174, 173);
   border-radius: 50%;
   float: left;
   z-index: 99;
@@ -499,7 +503,7 @@ footer {
   text-align: center;
 }
 #skills h2 {
-  color: #374054;
+  color: rgb(0, 0, 0);
   margin-bottom: 50px;
 }
 #skills ul {
@@ -512,20 +516,20 @@ footer {
   display: inline-block;
   margin: 7px;
   padding: 5px 10px;
-  color: #374054;
-  background: #e4e4ea;
+  color: rgb(0, 0, 0);
+  background: rgba(67, 174, 172, 0.258);
   list-style: none;
   cursor: default;
   font-size: 1.2em;
 }
 #contact {
   padding: 50px 15px;
-  background: #07263b;
+  background: rgb(255, 232, 206);
   text-align: center;
 }
 #contact h2 {
   margin: 0 0 15px 0;
-  color: #fff;
+  color: #000000;
   font-weight: 500;
 }
 #contact-form {
@@ -540,13 +544,13 @@ footer {
   border-radius: 4px;
   border: none;
   margin-bottom: 10px;
-  background: #ffffff27;
-  color: #fff;
+  background: rgb(255, 249, 241);
+  color: #000000;
   transition: 0.5s ease all;
 }
 #contact-form input::-webkit-input-placeholder,
 #contact-form textarea::-webkit-input-placeholder {
-  color: #fff;
+  color: #000000;
 }
 #contact-form input:-moz-placeholder,
 #contact-form textarea:-moz-placeholder {
@@ -565,7 +569,7 @@ footer {
 #contact-form input:focus,
 #contact-form textarea:focus {
   outline: none;
-  background: #16527a;
+  background: rgb(255, 255, 255);
 }
 #contact-form textarea {
   height: 150px;
@@ -574,13 +578,13 @@ footer {
 #contact-form button {
   display: block;
   width: 100%;
-  background: #fff;
+  background: rgb(255, 249, 241);
   border-radius: 4px;
   padding: 5px 10px;
   border: none;
   color: #0d1b24;
   font-weight: 700;
-  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.027), 0 1px 2px rgba(0, 0, 0, 0.027);
   transition: 0.5s ease all;
 }
 #contact-form button:hover {
