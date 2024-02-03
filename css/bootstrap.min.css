@@ -215,7 +215,7 @@ body {
   font-size: 14px;
   line-height: 1.42857143;
   color: #333;
-  background-color: rgb(214, 229, 230);
+  background-color: #ffffff;
 }
 input,
 button,
@@ -324,8 +324,8 @@ hr {
   padding-right: 15px;
 }
 .row {
-  margin-left: -15px;
-  margin-right: -15px;
+  margin-left: -20px;
+  margin-right: -20px;
 }
 .col-xs-1,
 .col-sm-1,
